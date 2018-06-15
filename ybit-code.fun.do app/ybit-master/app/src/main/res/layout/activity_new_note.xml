@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.user.ybit.newNoteActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.10"
+        android:layout_margin="10dp">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/noteYellow"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <EditText
+                android:text="TITLE"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText"
+                android:layout_gravity="left|top" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:textColor="@color/black"
+                android:ems="10"
+                android:id="@+id/editText2" />
+
+            <TextView
+                android:text="DateTime"
+                android:textColor="@color/colorDarkBlack"
+                android:textSize="16dp"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+        </android.support.design.widget.AppBarLayout>
+
+
+    </FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "520016970760",
+    "firebase_url": "https://loginvolley-62122.firebaseio.com",
+    "project_id": "loginvolley-62122",
+    "storage_bucket": "loginvolley-62122.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520016970760:android:f7a17b4d609f66dd",
+        "android_client_info": {
+          "package_name": "com.example.pp.loginvolley"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520016970760-2imkjap5a34ic2a8u5cpblpec5pr5tpt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA01hrQ0HTfyjrjhvnEcZYbDCme59MqU6s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
